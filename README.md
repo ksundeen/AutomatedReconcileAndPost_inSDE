@@ -1,0 +1,2 @@
+# AutomatedReconcileAndPost_inSDE
+Python script to run manually or routinely (e.g., using Window's Task Scheduler) to automate the posting and reconciling of a editing version off the Default SDE version. The script creates a log file with the time &amp;amp; date and runs arcpy's function to reconcile &amp;amp; post this version. It ends with a little file cleanup by deleting an extra .XML file that was created, but isn't needed. 
